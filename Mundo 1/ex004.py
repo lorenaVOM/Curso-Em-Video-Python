@@ -1,0 +1,7 @@
+n = input('\033[7;40mDigite algo:\033[m ')
+print(f'\033[31mÉ número?\033[m {n.isnumeric()}')
+print(f'\033[32mÉ alfabético?\033[m {n.isalpha()}')
+print(f'\033[33mÉ alfanumérico?\033[m {n.isalnum()}')
+print(f'\033[34mEstá em letras maíusculas?\033[m {n.isupper()}')
+print(f'\033[35mEstá em letras minúsculas?\033[m {n.islower()}')
+print(f'\033[36mEstá capitalizado?\033[m {n.istitle()}')
